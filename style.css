@@ -1,0 +1,34 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/*
+.shoe-container {
+  background-image: url("assets/images/collection-background.svg");
+} 
+*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.shoe-container:hover img {
+  animation: shoe-scaling 500ms ease-in-out forwards;
+}
+
+@keyframes shoe-scaling {
+  from {
+    transform: scale(1);
+  }
+  to {
+    transform: scale(1.1);
+  }
+}
+
+.stan-smith {
+  transform: rotate(-9deg);
+}
+
+li {
+  margin-bottom: 5px;
+}
