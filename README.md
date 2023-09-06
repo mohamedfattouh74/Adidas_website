@@ -1,4 +1,4 @@
-# Adidas_website
+# Adidas
 A simple fully responsive website for adidas brand carrying some of the real world products of adidas.
 
 ## Tools used:
